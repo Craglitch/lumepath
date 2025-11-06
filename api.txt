@@ -1,0 +1,32 @@
+server/routes/auth.js:
+  POST /signup
+  POST /login
+  GET /me
+
+server/routes/group.js:
+  GET /
+  POST /create
+  POST /:id/join
+  GET /:groupId
+
+server/routes/habits.js:
+  POST /add
+  GET /show
+  PUT /done/:id
+  GET /summary
+
+server/routes/post.js:
+  POST /create
+  GET /thread/:threadId
+
+server/routes/tasks.js:
+  POST /add
+  GET /show
+  PUT /done/:id
+  GET /summary
+
+server/routes/thread.js:
+  GET /:groupId
+  POST /:groupId/create
+  POST /:id/like
+  POST /:id/comment
