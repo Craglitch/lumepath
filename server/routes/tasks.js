@@ -15,7 +15,7 @@ router.post(
     if (!errors.isEmpty())
       return res.status(400).json({ errors: errors.array() });
 
-    const { title } = req.body;
+    const { title, description } = req.body;
     const task = new Task({ userId: req.userId, title, description });
     await task.save();
     res.status(201).json(task);
