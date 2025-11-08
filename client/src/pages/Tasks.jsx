@@ -9,22 +9,22 @@ export default function Tasks() {
   const [summary, setSummary] = useState({ total: 0, done: 0, percent: 0 });
 
   const fetchTasks = async () => {
-    const res = await axios.get("/api/tasks/show");
+    const res = await axios.get("/api/task/show");
     setTasks(res.data);
-    const sum = await axios.get("/api/tasks/summary");
+    const sum = await axios.get("/api/task/summary");
     setSummary(sum.data);
   };
 
   const addTask = async (e) => {
     e.preventDefault();
     if (!newTask.trim()) return;
-    await axios.post("/api/tasks/add", { title: newTask });
+    await axios.post("/api/task/add", { title: newTask });
     setNewTask("");
     fetchTasks();
   };
 
   const handleDone = async (id) => {
-    await axios.put(`/api/tasks/done/${id}`);
+    await axios.put(`/api/task/done/${id}`);
     fetchTasks();
   };
 
