@@ -1,7 +1,7 @@
 # 🌿 Lumepath
 
 **Lumepath** is a modern full-stack web app that helps users build and track habits for personal growth.  
-It’s lightweight (~5 MB), easy to deploy, and built for productivity-focused users.
+
 
 ---
 
@@ -66,7 +66,7 @@ Start the React app:
 npm start
 ```
 
-Your app will open at **http://localhost:3000** (or similar), connecting to the backend at **http://localhost:5000/api**.
+open at **http://localhost:3000** (or similar), connecting to the backend at **http://localhost:5000/api**.
 
 ---
 
@@ -98,12 +98,15 @@ After deployment, connect your own domain (via Cloudflare, Namecheap, etc.) and 
 ---
 
 ## 📌 Roadmap / To-Do
-- [ ] Add authentication (JWT or OAuth)
+- [x] Add authentication (JWT or OAuth)
 - [ ] Add notifications / reminders
-- [ ] Add analytics dashboard for progress tracking
+- [x] Add analytics dashboard for progress tracking
 - [ ] Convert to Progressive Web App (PWA)
-- [ ] Improve mobile layout
-- [ ] Deploy production version with custom domain
+- [x] Improve mobile layout
+- [ ] Add change password
+- [ ] Add AI chat boxes
+- [ ] Add community part
+- [ ] Add profile pages
 
 ---
 
@@ -120,16 +123,16 @@ Please keep code clean and consistent.
 ---
 
 ## 🧾 License
-Released under the **MIT License**.  
-You’re free to use, modify, and share this project with credit.
+
+UNDER CONTROL OF SMK PENANTI, THIS REPO MADE FOR COMPETITION PURPOSE.
+THIS REPO IS NOT FOR PRODUCTION USE YET UNTIL COMPETITION OR THE END OF CONTRACT.
+
 
 ---
 
-### 💬 Contact
+### 💬 Team information
 **Author:** [@Craglitch](https://github.com/Craglitch)  
 Feel free to open an *Issue* or *Pull Request* for suggestions or bugs.
 
 ---
 
-### ⭐ Support
-If you like **Lumepath**, please ⭐ this repo — it helps more than you think!
